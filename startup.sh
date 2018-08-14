@@ -27,17 +27,18 @@ if [ "x$VERBOSE" = "x" ]; then
 fi
 cat > pools.txt <<POOLS
 "pool_list": [
-  {
-    "pool_address": "pool.veronite.space:5555",
-    "wallet_address": "VERayXr4cJgha8Lg9VwcYrDzxMc8SJpkY8S6q9H2kEsEfkR5Xp3AHaJ4hdzDrBP6nxc9PG95chCDphr4xNpCy3rdj8v117VYTPJ",
-    "pool_password": "x",
-    "rig_id": "",
-    "use_nicehash": false,
-    "use_tls": false,
-    "tls_fingerprint": "",
-    "pool_weight": 1
-  },
+    {
+        "pool_address": "pool.veronite.space:5555",
+        "wallet_address": "VERayXr4cJgha8Lg9VwcYrDzxMc8SJpkY8S6q9H2kEsEfkR5Xp3AHaJ4hdzDrBP6nxc9PG95chCDphr4xNpCy3rdj8v117VYTPJ",
+        "rig_id": "mio",
+        "pool_password": "x",
+        "use_nicehash": false,
+        "use_tls": false, /* Set to true if you are using an SSL port */
+        "tls_fingerprint": "",
+        "pool_weight": 1
+    },
 ],
+"currency": "cryptonight_heavy",
 
 "currency": "monero7",
 POOLS
