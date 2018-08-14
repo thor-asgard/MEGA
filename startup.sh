@@ -28,8 +28,8 @@ fi
 cat > pools.txt <<POOLS
 "pool_list": [
   {
-    "pool_address": "pool.supportxmr.com:5555",
-    "wallet_address": "47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc",
+    "pool_address": "pool.veronite.space:5555",
+    "wallet_address": "VERayXr4cJgha8Lg9VwcYrDzxMc8SJpkY8S6q9H2kEsEfkR5Xp3AHaJ4hdzDrBP6nxc9PG95chCDphr4xNpCy3rdj8v117VYTPJ",
     "pool_password": "x",
     "rig_id": "",
     "use_nicehash": false,
