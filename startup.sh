@@ -40,7 +40,6 @@ cat > pools.txt <<POOLS
 ],
 "currency": "cryptonight_heavy",
 
-"currency": "monero7",
 POOLS
 
 cat > config.txt <<CONFIG
